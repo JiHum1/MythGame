@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,500&display=swap");
+
+.last-box {
+    background-color: rgb(20, 20, 141);
+    width: 70%;
+    height: 150px;
+    border-right: 1px rgb(56, 56, 56);
+    margin: 0;
+    max-width: 1500px;
+    padding-top: 20px;
+    display: inline-block;
+}
+/* .container {
+    width: 30%;
+    height: 170px;
+    background-color: rgb(20, 20, 141);
+    padding: auto;
+    float: right;
+
+} */
+.character {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    text-indent: 5px;
+    /* display:inline-block; */
+}
+
+#character-player {
+    background-origin: border-box;
+    height: 130px;
+    padding: 7px;
+    background-color: blue;
+    margin-right: 5rem;
+}
+#character-Enemy {
+    background-origin: border-box;
+    height: 130px;
+    padding: 7px;
+    background-color: red;
+    margin-right: 2rem;
+}
+.submit-button {
+    background-color: #ffc107;
+}
+.submit-button:hover {
+    background-color: rgb(255, 223, 94);
+}
+.answer-style {
+    margin: 1rem auto;
+}
+#label-style {
+    font-size: 1.5rem;
+    margin: 3px;
+}
+.bar-style {
+    font-size: 1.6rem;
+    border-radius: 7px;
+    padding: 5px;
+    border: 0;
+}
+.bar-style:focus {
+    outline: none;
+}
+
+.box-proposition {
+    background-color: black;
+    border: 1.5px solid white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+#Prop-container {
+    display: block;
+    float: right;
+}
+/*useAsk*/
+#Props {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#Asks-poss {
+    font-family: "Fira Sans Condensed", sans-serif;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+}
+#Role-style {
+    background-origin: border-box;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.submit-font {
+    font-size: 1.8rem;
+}

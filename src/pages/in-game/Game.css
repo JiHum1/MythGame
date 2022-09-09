@@ -1,0 +1,25 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+
+    
+}
+.body {
+    background-color: black;
+}
+.Image-res {
+    width: 960px;
+    margin: auto;
+    height: 100%;
+    /* background: url('./assets/StandStill.png'); */
+    background-color: black;
+    background-origin: border-box;
+}
+.middle-box {
+    width: 100%;
+    height: 400px;
+    background-origin: border-box;
+    background-color: black;
+}

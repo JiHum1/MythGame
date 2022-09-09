@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Alagard;
+    src: url(fonts/Alagard.woff);
+}
+
+* {
+    font-family: Alagard;
+}
