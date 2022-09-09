@@ -155,7 +155,7 @@ function PlayerATK() {
                     style={{
                         position: "absolute",
                         top: "8rem",
-                        left: "41%",
+                        left: "47%",
                         color: "#D2FF3B"
                     }}
                 >
