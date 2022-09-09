@@ -10,7 +10,7 @@ function PlayerATK() {
     const [itemsAsk, setItemsAsk] = useState(); // โจทย์ใหม่
     const [playerhp, setPlayerhp] = useState(6); // เลือดของผู้เล่น
     const [enemyhp, setEnemyhp] = useState(8); // เลือดของศัตรู
-    const [turn, setTurn] = useState("Player Turn"); // turn or ฝั้งที่เล่น
+    const [turn, setTurn] = useState("Attacker"); // turn or ฝั้งที่เล่น
 
     const sweetUi = (WL, role) => {
         Swal.fire({
@@ -83,12 +83,12 @@ function PlayerATK() {
         if (number == "") return // หากคำตอบว่าง Not run continue
 
         // เช็คคำตอบฝั่งโจมตี [Start]
-        if (turn === "Player Turn") {
+        if (turn === "Attacker") {
             if (number == itemsAsk.ans) {
                 setItemsAsk(RandomAsk());
                 const prevEnemy = enemyhp - 2;
                 setEnemyhp(prevEnemy);
-                betweenUi("Correct! : PlayerTurn", '/Player-atked.png')
+                betweenUi("Correct! : Attacker", '/Player-atked.png')
                 
                 if (prevEnemy == 0) {
                     sweetUi("You win!", 'success');
@@ -96,17 +96,17 @@ function PlayerATK() {
                 }
             } else {
                 setItemsAsk(RandomAsk());
-                betweenUi("InCorrect : PlayerTurn", '/Player-missAtked.png');
+                betweenUi("InCorrect : Attacker", '/Player-missAtked.png');
             }
-            setTurn("Enemy Turn");
+            setTurn("Defender");
             // เช็คคำตอบฝั่งโจมตี  [End]
         }
         // เช็คคำตอบฝั่งป้องกัน [Start]
-        if (turn === "Enemy Turn") {
+        if (turn === "Defender") {
             if (number == itemsAsk.ans) {
                 setItemsAsk(RandomAsk());
                 const prevPlayer = playerhp - 1;
-                betweenUi("Correct! : EnemyTurn", '/Enemy-missAtked.png')
+                betweenUi("Correct! : Defender", '/Enemy-missAtked.png')
                 if (prevPlayer == 0) {
                     sweetUi("You Lost :(", 'error');
                 }
@@ -115,12 +115,12 @@ function PlayerATK() {
                 const prevPlayer = playerhp - 2;
                 setPlayerhp(prevPlayer);
                 setItemsAsk(RandomAsk());
-                betweenUi("InCorrect : EnemyTurn", '/Enemy-atked.png')
+                betweenUi("InCorrect : Defender", '/Enemy-atked.png')
                 if (prevPlayer == 0) {
                     sweetUi("You Lost :(", 'error');
                 }
             }
-            setTurn("Player Turn");
+            setTurn("Attacker");
         }
         setNumber("");
     };
