@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tutorial() {
   return (
-    <div style={{color:"black"}}>Tutorial</div>
+    <div className="container">How to play</div>
   )
 }
 
