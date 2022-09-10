@@ -3,7 +3,6 @@ export const RandomAsk = () => {
     // max = length of askGame
     // min = 0 [follow Index of Object]
     const max = askGame.length - 1
-    console.log(max)
     const min = 0
     return askGame[Math.floor(Math.random() * (max - min + 1)) + min];
 }
