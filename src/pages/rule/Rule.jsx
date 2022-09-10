@@ -122,13 +122,13 @@ function Rules() {
                     role="group"
                     aria-label="Large button group"
                 >
-                    <Link to="/SinglePlayer/Game">
-                        <button type="button" className="btn btn-outline-success">
-                            Go to Game!
+                    <Link to="/Tutorial">
+                        <button type="button" className="btn btn-outline-teel">
+                            Go to Tutorial
                         </button>
                     </Link>
                     <Link to="/">
-                        <button type="button" className="btn btn-outline-danger">
+                        <button type="button" className="btn btn-outline-red">
                             Quit
                         </button>
                     </Link>

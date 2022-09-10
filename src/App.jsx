@@ -5,6 +5,7 @@ import GameATK from "./pages/in-game/GameATK";
 import About from "./pages/about/About";
 import Home from "./components/home/Home";
 import Rules from "./pages/rule/Rule";
+import Tutorial from "./pages/tutorial/Tutorial"
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { RandomAsk } from "./randomask";
 
@@ -22,6 +23,7 @@ function App() {
                         element={<GameATK items={RandomAsk} />}
                     />
                     <Route path="/About" element={<About />} />
+                    <Route path="/Tutorial" element={<Tutorial />} />
                 </Routes>
             </BrowserRouter>
         </div>
