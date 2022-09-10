@@ -1,0 +1,18 @@
+.topic-rule {
+    color: rgb(0, 0, 0);
+    /* justify-content:space-around; */
+    font-size: 3.6rem;
+    font-weight: 500;
+    position:fixed;
+    top: 16%;
+    left: 25%;
+}
+
+.font-rule-size {
+    font-size: 3rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #ee9b00;
+}

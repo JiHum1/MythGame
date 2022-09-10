@@ -1,0 +1,105 @@
+
+                <div class="d-flex align-items-start mt-3 m-3">
+                    <div
+                        class="nav flex-column nav-pills me-3 bg-light rounded"
+                        id="v-pills-tab"
+                        role="tablist"
+                        aria-orientation="vertical"
+                    >
+                        <button
+                            class="nav-link active"
+                            id="v-pills-home-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home"
+                            type="button"
+                            role="tab"
+                            aria-controls="v-pills-home"
+                            aria-selected="true"
+                        >
+                            Rule 1
+                        </button>
+                        <button
+                            class="nav-link"
+                            id="v-pills-profile-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile"
+                            type="button"
+                            role="tab"
+                            aria-controls="v-pills-profile"
+                            aria-selected="false"
+                        >
+                            Rule 2
+                        </button>
+                        <button
+                            class="nav-link"
+                            id="v-pills-messages-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages"
+                            type="button"
+                            role="tab"
+                            aria-controls="v-pills-messages"
+                            aria-selected="false"
+                        >
+                            Rule 3
+                        </button>
+                        <button
+                            class="nav-link"
+                            id="v-pills-settings-tab"
+                            data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings"
+                            type="button"
+                            role="tab"
+                            aria-controls="v-pills-settings"
+                            aria-selected="false"
+                        >
+                            Rule 4
+                        </button>
+                    </div>
+                    <div class="tab-content pt-5" id="v-pills-tabContent">
+                        <div
+                            class="tab-pane fade show active"
+                            id="v-pills-home"
+                            role="tabpanel"
+                            aria-labelledby="v-pills-home-tab"
+                            tabindex="0"
+                        >
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat mollitia ipsa tenetur amet nobis quasi minus ullam, blanditiis asperiores voluptates corrupti, autem delectus, repellat placeat facere! Repellat accusamus excepturi vero laborum architecto voluptatum maxime nobis aliquid officiis accusantium enim, sed quasi eius eaque sit dolore commodi aliquam, alias beatae asperiores doloribus et? Voluptate earum odio sint fugiat perspiciatis laboriosam libero, quaerat neque quia doloribus quos, ad magni natus architecto explicabo inventore maiores, nostrum dolor. Laboriosam, placeat doloremque nemo illo eos pariatur natus ullam accusamus sequi, voluptatum iure repellendus rem et odio nihil consequatur aliquam illum doloribus quas sit quia debitis?
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="v-pills-profile"
+                            role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab"
+                            tabindex="0"
+                        >
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga obcaecati unde maxime, illum, blanditiis quidem porro nemo earum laborum error excepturi! Doloribus saepe soluta suscipit quisquam quia consequuntur dolorum exercitationem ab iusto tempora numquam, facilis repudiandae quo excepturi? Asperiores laudantium eos minima veritatis totam, rem illum. Consequuntur exercitationem sit eligendi iure dolorum iste reprehenderit eaque tempora aliquam saepe expedita sequi unde, facilis porro recusandae optio, nemo cumque est id eos dicta. Molestiae maxime error atque sequi quia suscipit beatae unde quod perferendis possimus! Quia perspiciatis in, facere aliquam itaque cupiditate, illum voluptate voluptas dolorum adipisci cum soluta nesciunt cumque.
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="v-pills-disabled"
+                            role="tabpanel"
+                            aria-labelledby="v-pills-disabled-tab"
+                            tabindex="0"
+                        >
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, error. Tempora repudiandae maiores esse facilis tenetur, est iure amet qui reprehenderit corporis corrupti similique nemo in excepturi id laudantium vitae?
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="v-pills-messages"
+                            role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab"
+                            tabindex="0"
+                        >
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, amet repellendus vel reiciendis ipsam corporis commodi temporibus recusandae ab quibusdam magni vitae sint eos a quos sed, sunt tempora, est veniam nobis? Doloribus neque quaerat provident, perspiciatis suscipit magni et esse ipsum dicta officia deserunt veniam similique minus! Quos dignissimos libero qui eaque commodi officiis est rerum non adipisci facilis fugit sequi provident, ducimus autem vel labore harum, odit excepturi. Deserunt ipsam incidunt hic quam illo sunt impedit mollitia iure, quasi exercitationem dolorem corrupti quidem sint rerum et harum. Velit doloribus magnam nam illo exercitationem, magni quae vero nemo esse?
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="v-pills-settings"
+                            role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab"
+                            tabindex="0"
+                        >
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi aliquid suscipit ipsam corporis eius cupiditate asperiores nisi assumenda ullam! Ad officiis ut repudiandae ducimus amet officia alias assumenda nisi eveniet molestiae! Quaerat expedita delectus perspiciatis explicabo sequi suscipit veritatis, error voluptatum? Commodi, ut quae. Eligendi, quam nihil quo impedit aliquid, ipsa exercitationem, temporibus hic voluptatem corrupti iste ratione ad sit autem expedita quisquam nulla et odit! Cumque, suscipit eaque exercitationem praesentium nulla maiores atque perspiciatis, rerum rem doloribus illo dignissimos doloremque esse quaerat! Voluptatum earum tempore repellat assumenda vero dolore velit. Impedit illo debitis corporis iusto doloremque eligendi maxime rerum.
+                        </div>
+                    </div>
+                </div>
