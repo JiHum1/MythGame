@@ -2,7 +2,7 @@ import React from 'react'
 
 function Rules() {
   return (
-    <div>Rules</div>
+    <div style={{color:"black"}}>Rules</div>
   )
 }
 
