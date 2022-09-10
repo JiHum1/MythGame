@@ -102,7 +102,7 @@ function Rules() {
                             aria-labelledby="Rule-3"
                             tabindex="0"
                         >
-                            Must write all Question.
+                            Must write to answer all Question.
                         </div>
                         <div
                             class="tab-pane fade font-rule-size"
