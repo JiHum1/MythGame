@@ -1,22 +1,9 @@
-import React from "react";
-import "./Tutorial.css";
+import React from 'react'
 
 function Tutorial() {
-    return (
-        <div>
-            <div className="container bg-dark mt-3 rounded-2">
-                <header className="bg-light d-flex p-lg-2 rounded">
-                    <img src="/logo.png" width="100px" className="rounded" />
-                    <span className="topic-tutorial">
-                        Tutorial of Myth Game
-                    </span>
-                </header>
-            </div>
-            <div className="container bg-dark mt-sm-1 rounded-2 p-2">
-              
-            </div>
-        </div>
-    );
+  return (
+    <div className="container">How to play</div>
+  )
 }
 
-export default Tutorial;
+export default Tutorial
