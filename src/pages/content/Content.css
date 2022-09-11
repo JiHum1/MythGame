@@ -14,7 +14,7 @@
     position: relative;
     margin: 20px 4em;
     transition: all 0.3s ease;
-    min-width: 256px;
+    max-width: 256px;
     justify-items: center;
 }
 .btn-1 {

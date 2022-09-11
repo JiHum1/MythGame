@@ -5,5 +5,31 @@
     font-weight: 500;
     position:absolute;
     top: 17%;
-    left: 25%;
+    left: 27%;
 }
+
+.learn-button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s;
+    /* position: relative; */
+    /* left: 35%; */
+}
+.learn-button:hover {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+/* .sticky-row {
+    float: right;
+    margin-right: 3rem;
+    position: sticky; 
+    top: 10%;
+
+} */

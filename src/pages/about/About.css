@@ -1,3 +1,12 @@
-#font-color {
-    color: black;
+.topic-About-us {
+    color: rgb(0, 0, 0);
+    /* justify-content:space-around; */
+    font-size: 3.6rem;
+    font-weight: 500;
+    position:absolute;
+    top: 17%;
+    left: 25%;
+}
+main {
+    height: 1000px;
 }

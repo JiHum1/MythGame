@@ -41,6 +41,7 @@
 }
 .submit-button {
     background-color: #ffc107;
+    font-size: 1.8rem;
 }
 .submit-button:hover {
     background-color: rgb(255, 223, 94);
@@ -95,8 +96,4 @@
     border: 2px solid white;
     padding: 5px;
     border-radius: 5px;
-}
-
-.submit-font {
-    font-size: 1.8rem;
 }

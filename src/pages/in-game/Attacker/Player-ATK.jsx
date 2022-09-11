@@ -8,9 +8,9 @@ function PlayerATK() {
     let { turn, seconds, itemsAsk } = useAsk(); // More Feature
 
     return (
-        <div>
+        <div className="">
             <article className="d-flex justify-content-between">
-                <div className="col-md-2 text-center pt-4 bg-primary justify-content-center">
+                <div className="col-md-2 text-center pt-4 bg-primary justify-content-center ">
                     <div className="">
                         <h2>Player</h2>
 
@@ -20,7 +20,7 @@ function PlayerATK() {
                 <div className="col-md-8">
                     <img src="/StandStill.png" style={{ width: "100%" }} />
                 </div>
-                <div className="col-md-2 text-center pt-4 bg-danger justify-content-center">
+                <div className="col-md-2 row-cols-auto text-center pt-4 bg-danger justify-content-center">
                     <div className="">
                         <h2>Enemy</h2>
 
@@ -50,8 +50,8 @@ function PlayerATK() {
                 </div>
             </div>
             <footer
-                className="d-flex bg-success"
-                style={{ marginTop: "-19px", height: "102px" }}
+                className="d-flex bg-success p-2 col-sm-16 "
+                style={{ marginTop: "-19px"}}
             >
                 <div className="col-md-6 text-center">
                     <h3
@@ -99,5 +99,4 @@ function PlayerATK() {
         </div>
     );
 }
-
 export default PlayerATK;

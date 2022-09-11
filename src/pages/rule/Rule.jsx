@@ -123,14 +123,19 @@ function Rules() {
                     role="group"
                     aria-label="Large button group"
                 >
+                    <Link to="/">
+                        <button type="button" className="btn btn-outline-red">
+                           {"<"} BACK
+                        </button>
+                    </Link>
+                    <Link to="/Learn more">
+                        <button type="button" className="btn btn-outline-primary">
+                            Learn More
+                        </button>
+                    </Link>
                     <Link to="/Tutorial">
                         <button type="button" className="btn btn-outline-teel">
                             Go to Tutorial
-                        </button>
-                    </Link>
-                    <Link to="/">
-                        <button type="button" className="btn btn-outline-red">
-                            Quit
                         </button>
                     </Link>
                 </div>
