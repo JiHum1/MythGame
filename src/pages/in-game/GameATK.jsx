@@ -14,7 +14,6 @@ const GameATK = () => {
                     <div className="col-md-2 text-center">Enemy1</div>
                 </div>
             </article> */}
-        {/* asdadpijwpkljwslkjs */}
             <PlayerATK />
         </div>
     );
