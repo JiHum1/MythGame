@@ -6,12 +6,13 @@ function Rules() {
     return (
         <div>
             <div className="container-md bg-dark border border-light mt-3 rounded">
-                <header className="bg-light d-flex">
-                    <img src="/logo.png" width="100px" />
+                <header className="bg-light d-flex p-lg-2 rounded">
+                    <img src="/logo.png" width="100px" className="rounded" />
                     <span className="topic-rule">Rules of Myth Game</span>
                 </header>
-
-                <div class="d-flex align-items-start mt-3 m-3">
+            </div>
+            <div className="container-md bg-dark border border-light mt-1 rounded">
+                <div class="d-flex align-items-start mt-4 m-3">
                     <div
                         class="nav flex-column nav-pills mb-3 mr-3 bg-light rounded p-1"
                         id="v-pills-tab"
