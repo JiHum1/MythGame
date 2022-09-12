@@ -3,9 +3,8 @@ import "./Player-ATK.css";
 import useAsk from "./useAsk";
 
 function PlayerATK() {
-    let { answerTitle, saveItem, number } = useAsk(); // Answer: function
-    let { playerhp, enemyhp } = useAsk(); // HP: Feature
-    let { turn, seconds, itemsAsk } = useAsk(); // More Feature
+    let { answerTitle, saveItem, number,turn, seconds, itemsAsk, playerhp, enemyhp  } = useAsk(); // Answer: function
+    // let { playerhp, enemyhp } = useAsk(); // HP: Feature
 
     return (
         <div className="">
