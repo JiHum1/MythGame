@@ -7,7 +7,7 @@ function LearnPage() {
                 <header className="bg-light d-flex p-lg-2 rounded">
                     <img src="/logo.png" width="100px" className="rounded" />
                     <span className="topic-tutorial">
-                        Learn Info of Myth Game.
+                        Learn Info of Myth Game
                     </span>
                 </header>
             </div>
