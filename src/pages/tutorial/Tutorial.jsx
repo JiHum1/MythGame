@@ -13,8 +13,14 @@ function Tutorial() {
                     </span>
                 </header>
             </div>
-            <div className="container bg-dark mt-sm-1 rounded-2 p-2" style={{height:"100rem"}}>
-                <section className="card p-2 d-inline-block" style={{ width: "50rem" }}>
+            <div
+                className="container bg-dark mt-sm-1 rounded-2 p-2"
+                style={{ height: "100rem" }}
+            >
+                <section
+                    className="card p-2 d-inline-block"
+                    style={{ width: "50rem" }}
+                >
                     <h2 className="" style={{ color: "black" }}>
                         1. Learn About Mathematic.
                     </h2>
@@ -22,23 +28,45 @@ function Tutorial() {
                         <button className="learn-button">Learn More</button>
                     </Link>
                 </section>
-                <section className="card p-2 d-inline-block" style={{ width: "50rem" }}>
+                <section
+                    className="card p-2 d-inline-block"
+                    style={{ width: "50rem" }}
+                >
                     <h2 className="" style={{ color: "black" }}>
                         2. How to get to the game
                     </h2>
                     <img src="..." alt="..." />
                 </section>
-                <section className="card p-2 d-inline-block" style={{ width: "50rem" }}>
+                <section
+                    className="card p-2 d-inline-block"
+                    style={{ width: "50rem" }}
+                >
                     <h2 className="" style={{ color: "black" }}>
                         3. How to Play
                     </h2>
                     <img src="..." alt="..." />
                 </section>
-                <section className="card p-2 d-inline-block" style={{ width: "50rem" }}>
+                <section
+                    className="card p-2 d-inline-block"
+                    style={{ width: "50rem" }}
+                >
                     <h2 className="" style={{ color: "black" }}>
-                        4. How to Win or Lose
+                        4. How to Pass
                     </h2>
-                    <img src="..." alt="..." />
+                    <ul>
+                        <li>
+                            <h4 className="title">4.1 When Win</h4>
+                            <img src="..." alt="..." />
+                        </li>
+                        <li>
+                            <h4 className="title">4.2 When Lose</h4>
+                            <img src="..." alt="..." />
+                        </li>
+                        <li>
+                            <h4 className="title">4.3 When TimeOut</h4>
+                            <img src="..." alt="..." />
+                        </li>
+                    </ul>
                 </section>
                 {/* <div class="row sticky-row ">
                     <div class="col-4">
