@@ -4,11 +4,12 @@ import { RandomAsk } from "../../../randomask";
 import Swal from "sweetalert2";
 
 const useAsk = () => {
+
     const navigate = useNavigate();
     // In-Game func with usestate
     const [itemsAsk, setItemsAsk] = useState(); // โจทย์ใหม่
-    const [playerhp, setPlayerhp] = useState(6); // เลือดของผู้เล่น
-    const [enemyhp, setEnemyhp] = useState(8); // เลือดของศัตรู
+    const [playerhp, setPlayerhp] = useState(6)
+    const [enemyhp, setEnemyhp] = useState(8)
     const [turn, setTurn] = useState("Attacker"); // turn or ฝั้งที่เล่น
 
     const sweetUi = (WL, role) => {
@@ -91,6 +92,9 @@ const useAsk = () => {
                 if (prevEnemy == 0) {
                     sweetUi("You win!", "success");
                 }
+                if (prevEnemy < 0) {
+                    window.location.reload()
+                }
             } else {
                 setItemsAsk(RandomAsk());
                 betweenUi("InCorrect : Attacker", "/Player-missAtked.png");
@@ -107,6 +111,9 @@ const useAsk = () => {
                 if (prevPlayer == 0) {
                     sweetUi("You Lost :(", "error");
                 }
+                if (prevPlayer < 0) {
+                    window.location.reload()
+                }
                 setPlayerhp(prevPlayer);
             } else {
                 const prevPlayer = playerhp - 2;
@@ -115,6 +122,9 @@ const useAsk = () => {
                 betweenUi("InCorrect : Defender", "/Enemy-atked.png");
                 if (prevPlayer == 0) {
                     sweetUi("You Lost :(", "error");
+                }
+                if (prevPlayer < 0) {
+                    window.location.reload()
                 }
             }
             setTurn("Attacker");

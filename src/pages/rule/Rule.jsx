@@ -128,14 +128,14 @@ function Rules() {
                            {"<"} BACK
                         </button>
                     </Link>
-                    <Link to="/Learn more">
+                    <Link to="/LearnMore">
                         <button type="button" className="btn btn-outline-primary">
                             Learn More
                         </button>
                     </Link>
                     <Link to="/Tutorial">
                         <button type="button" className="btn btn-outline-teel">
-                            Go to Tutorial
+                            Go to Tutorial {">"}
                         </button>
                     </Link>
                 </div>

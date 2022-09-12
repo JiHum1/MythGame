@@ -25,7 +25,7 @@ function App() {
                     />
                     <Route path="/About" element={<About />} />
                     <Route path="/Tutorial" element={<Tutorial />} />
-                    <Route path="/Learn more" element={<LearnPage />} />
+                    <Route path="/LearnMore" element={<LearnPage />} />
                 </Routes>
             </BrowserRouter>
         </div>
