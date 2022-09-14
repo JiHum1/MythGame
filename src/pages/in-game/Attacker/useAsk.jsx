@@ -1,48 +1,15 @@
 import { React, useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { RandomAsk } from "../../../randomask";
-import Swal from "sweetalert2";
+import PopUpUi from './PopUpUi'
 
 const useAsk = () => {
 
-    const navigate = useNavigate();
+    let { sweetUi, betweenUi} = PopUpUi();
     // In-Game func with usestate
     const [itemsAsk, setItemsAsk] = useState(); // โจทย์ใหม่
     const [playerhp, setPlayerhp] = useState(6)
     const [enemyhp, setEnemyhp] = useState(8)
     const [turn, setTurn] = useState("Attacker"); // turn or ฝั้งที่เล่น
-
-    const sweetUi = (WL, role) => {
-        Swal.fire({
-            title: WL,
-            icon: role,
-            showDenyButton: true,
-            confirmButtonText: "Continue",
-            denyButtonText: "Quit",
-        }).then((result) => {
-            /* Read more about isConfirmed, isDenied below */
-            if (result.isConfirmed) {
-                window.location.reload();
-            } else if (result.isDenied) {
-                navigate("/");
-            }
-        });
-    };
-    const betweenUi = (wl, pho) => {
-        Swal.fire({
-            title: wl,
-            width: 600,
-            padding: "3em",
-            color: "#2A2A2A",
-            imageUrl: pho,
-            imageHeight: 300,
-            backdrop: `
-              rgba(0,0,0,0.5)
-              left top
-              no-repeat
-            `,
-        });
-    };
 
     // CountDownTime [Start]
     const initialSeconds = 90;
