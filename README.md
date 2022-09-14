@@ -21,4 +21,3 @@
 1. My friend.
 2. My Teacher.
 3. My family.
-**---------------------**
