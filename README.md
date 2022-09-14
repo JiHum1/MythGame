@@ -1,7 +1,7 @@
 # Welcome To Myth Game Project!!!
 
 ## This is My web Link
-**Original Link :** `https://mythgameproject-b2117.firebaseapp.com/`
+**Original Link :** [THE MYTH GAME](https://mythgameproject-b2117.firebaseapp.com/)
 
 ### My Inspiration
 1. I want to Place something project.
