@@ -12,7 +12,7 @@
 ### Terms & Service
 `**WIP**`
 
-### Credit
+# Credit
 #### Members
 1. WellGoZ.
 2. Tea T Tee.
