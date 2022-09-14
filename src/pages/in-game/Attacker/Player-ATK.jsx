@@ -49,12 +49,12 @@ function PlayerATK() {
                 </div>
             </div>
             <footer
-                className="d-flex bg-success p-2 col-sm-16 "
+                className="d-fixed bg-success p-2 col-sm-16 top-head"
                 style={{ marginTop: "-19px"}}
             >
-                <div className="col-md-6 text-center">
+                <div className="col-md-6 text-center d-inline">
                     <h3
-                        className="mt-2"
+                        className="mt-2 "
                         style={{
                             fontFamily: "Fira Sans Condensed, sans-serif",
                         }}
@@ -90,7 +90,7 @@ function PlayerATK() {
                             style={{ maxHeight: "60px", width: "150px" }}
                             // onClick={(e) => saveItem(e)}
                         >
-                            <b>SUBMIT</b>
+                            <strong>SUBMIT</strong>
                         </button>
                     </form>
                 </div>
